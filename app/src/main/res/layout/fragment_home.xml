@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ecosense_color"
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <LinearLayout
+                        android:id="@+id/toptab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:layout_marginHorizontal="10dp"
+                        >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="normal"
+                                android:textColor="@color/white"
+                                android:text="Hey Mathias"
+                                android:textSize="18sp"
+                                />
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/white_bell"
+                                android:layout_alignParentEnd="true"
+
+                                />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="$ 250,0000"
+                            android:textAlignment="center"
+                            android:textSize="40sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/toptab"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/dashboardlayout"
+                        >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginHorizontal="15dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Our Products"
+                                    android:textSize="16sp"
+                                    android:layout_marginTop="20dp"
+                                    android:textColor="@color/ecosense_color"
+                                    />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/topstories"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    />
+                                <ScrollView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    >
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        >
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Other elements will go here"
+                                            android:textSize="10sp"
+                                            android:textColor="@color/black"
+                                            /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        /> <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Other elements will go here"
+                                        android:textSize="10sp"
+                                        android:textColor="@color/black"
+                                        />
+                                    </LinearLayout>
+
+
+
+
+                                </ScrollView>
+                            </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/helpline"
+                android:layout_marginBottom="20dp" />
+
+        </RelativeLayout>
+
+
+
+
+</FrameLayout>
